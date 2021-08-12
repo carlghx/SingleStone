@@ -23,7 +23,7 @@ namespace DataAccess
     /// As a workaround, I have created the MockData class that implements the same interface so that I can at least test the front end.
     /// At some point after doing the above, I decided to try LiteDB instead, so now there are 3 classes that implement the IData interface.
     /// </summary>
-    public class Data : IData
+    public class AdventureWorksData : IData
     {
         /// <summary>
         /// Convert database object from generated model into the form used by the API
