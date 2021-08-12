@@ -11,3 +11,27 @@ DataAccess - This contains 3 classes for retrieving data: AdventureWorksData.cs 
 LiteDB assumes the existence of a C:\Temp folder. The NUnit class uses C:\Temp\NUnitUseOnly.db and the Web application uses C:\Temp\Api.db
 
 RestApi - This was created using the Visual Studio Web Api template, with some modifications. The relevant API calls are in Controllers/ContactsController.
+
+Testing on the front end was done using postman with the following:
+https://localhost:44345/contacts/1
+{
+  "name": {
+    "first": "string",
+    "middle": "string",
+    "last": "string" 
+  },
+  "address": {
+    "street": "string",
+    "city": "string",
+    "state": "string",
+    "zip": "string"
+  },
+  "phone": [
+    {
+      "number": "string",
+      "type": "home"
+    }
+  ],
+  "email": "string"
+}
+
