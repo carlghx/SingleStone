@@ -12,7 +12,7 @@ LiteDB assumes the existence of a C:\Temp folder. The NUnit class uses C:\Temp\N
 
 RestApi - This was created using the Visual Studio Web Api template, with some modifications. The relevant API calls are in Controllers/ContactsController.
 
-Testing on the front end was done using postman with the following:
+Testing on the front end was done using Postman with the following:
 https://localhost:44345/contacts/1
 {
   "name": {
