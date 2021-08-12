@@ -4,7 +4,7 @@ I initially tried to implement this using a local SQLExpress AdventureWorks db a
 
 Contents of this solution:
 
-AdventureWorksModel - this does not work and is only here for posterity.
+AdventureWorksModel - this is not used by anything and is only here for posterity.
 
 DataAccess - This contains 3 classes for retrieving data: AdventureWorksData.cs (doesn't work), MockData (hardcoded data), and LiteDbData (the solution I went with in the end). It also contains a test class, LiteDBTests.
 
